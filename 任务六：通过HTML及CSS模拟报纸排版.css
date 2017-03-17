@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+
+*  {
+	margin: 0;
+	padding: 0;
+}
+.wraper {
+	margin: 0 auto;
+	padding: 0 44px;
+	width: 892px;
+	height: 1386px;	
+}
+.header {
+	border-bottom: 2px #938e8c solid;
+	height:61px;
+}
+.mainbody {
+	overflow: hidden;
+	margin: 34px 0 39px;
+}
+.footer { 
+	border-top:2px #938e8c solid;
+	height:60px;
+}
+/*页面布局部分-------------------------------------------------------------------*/	
+
+/*header部分*/
+.header .tag {
+	float: left;
+	padding: 4px;
+	height: 53px;
+	width: 104px;
+	background-color: rgb(213,93,92);
+}
+.header p {
+	position: absolute;
+	margin-top:44px;
+	font-size: 12px;
+	font-family: 黑体;
+	color: white;
+}
+/*header部分结束--------------*/
+
+
+/*mainbody部分*/	
+
+/*banner部分*/
+.banner-wrap {
+	overflow: hidden;
+	height: 301px;
+}
+.banner {
+	float: left;
+    width: 641px;
+	height: 301px;
+    background-color: #093;
+}
+.banner-wrap .tag {
+	float: right;
+	border-top: solid 2px #cc8091;
+	padding-top: 10px;
+	width: 202px;
+	height: 301px;
+}
+.banner-wrap .title {
+	font-family: 微软雅黑;
+}
+.banner-wrap .title1 {
+	font-size: 24px;
+	line-height: 40px;
+	text-decoration: underline;
+	color: #000;
+}
+.banner-wrap .title2 {
+	font-size: 12px;
+	font-family: 楷体;
+	line-height: 10px;
+	color: #676767;
+}
+.banner-wrap .title3 {
+	margin-left:-18px;
+	font-size: 116px;
+	font-style: italic;
+	color: #75b86b;
+}
+.banner-wrap .title4 {
+	margin-top: -24px;
+	font-size: 55px;
+	color: #cc8091;
+}
+.banner-wrap .title5 {
+	margin-top: -29px;
+	margin-left: 90px;
+	font-size: 12px;
+	color: #cc8091;
+}
+.banner-wrap .title6 {
+	position: absolute;
+	margin-left: 90px;
+	margin-top: -40px;
+	font-size: 21px;
+	color: #cc8091;
+}	
+/*banner部分结束--------------------*/
+/*nav部分*/	
+.nav {
+	overflow: hidden;
+	height: 168px;
+	margin-top: 41px;
+}
+.subnav {
+	float: left;
+	margin-right: 27px;
+	height: 168px;
+	width: 210px;
+}
+.subnav-title {
+	font: 16px bold 微软雅黑;
+}
+.color1{
+	color: #418c59;
+}
+.color2{
+	color: #d2994f;
+}
+.color3{
+	color: #cc7680;	
+}	
+.subnav p{
+	padding-top: 10px;
+	font: 12px 微软雅黑;
+	color: #231815;
+}
+/*nav部分结束------------------*/	
+	
+/*content部分*/
+.content {
+	
+	margin-top: 74px;
+	height: 608px;
+}
+.article {
+	float: left;
+	width: 416px;
+	height: 604px;	
+}
+
+.article .logo {
+	border-bottom: 2px solid #11456b;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+}
+.article .logo h1 {
+	font: 42px 黑体;
+	font-weight: bold;
+	line-height: 38px;
+	color: #11456b;
+}
+.article .logo h1 > span {
+	position: relative;
+	margin-left: -16px;
+	padding: 0 10px;
+	font: 72px 黑体;
+	font-style: italic;
+	line-height:48px;
+	color:#f5e327;
+}
+.article .logo h2 {
+	font: 33px 黑体;
+	font-weight: bold; 
+	color: #11456b;
+}
+.article p {
+	font: 12px 宋体;
+	line-height: 16px;
+}
+.article p span {
+	float: left;
+	font: 70px 微软雅黑;
+	color: #f5e327;
+}
+.article p img {
+	float: right;
+	margin: 18px 8px 14px 20px;
+}
+.advertisement {
+	float: right;
+	width: 458px;
+	height: 608px;
+}
+.advertisement .list {
+    position: relative;
+	margin-top: 30px;
+	height: 320px;
+	background-color: rgb(238,237,214);
+}
+.advertisement .list ul {
+	padding: 10px;}
+.advertisement .list li {
+	padding: 10px;
+	list-style: inside;
+	}
+.advertisement .list-tag {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 40px 13px 34px 15px;
+	width: 232px;
+	height: 86px;
+	font: 12px 黑体;
+	background-color: rgb(213,93,92);
+	color: #fff;
+}
+.advertisement .list-tag span {
+	float: left;	
+	font: 110px 微软雅黑;
+	line-height: 86px;
+
+}
+.advertisement .list-tag h1 {
+	font:21px 黑体;
+}
+.advertisement .list-tag div {
+	margin-left:70px;
+	padding:0 10px;
+	border-left:2px solid #fff;
+}
+/*content部分结束-------------------*/	
+/*mainbody部分结束---------------------------------------*/	
+	
+/*footer部分*/
+.footer p {
+	float: right;
+	font: 12px 黑体;
+	color: #d45d5c;
+}
+/*footer部分结束---------------------------------------*/
